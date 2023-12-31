@@ -11,7 +11,7 @@
 @media screen and (max-width: 736px) {
   .wrapper {
     margin-top: 143px;
-    animation: transitionIn .5s step-end;
+    animation: none;
   }
 }
 
@@ -33,6 +33,7 @@
 
 .home h1 {
     margin-right: 10px;
+    animation: transitionIn .5s ease-in-out;
 }
 
 
@@ -48,11 +49,10 @@
   }
 
 .home-container {
-
-  max-width: 2048px;
-  max-height: 1365px;
   width: 100vw;
   height: 100vh;
+  max-width: 2048px;
+  max-height: 1365px;
     color: rgb(245, 245, 245);
     position: absolute;
     top: 0%;
@@ -61,11 +61,12 @@
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     opacity: 0.8;
+
 }
 
 @media screen and (max-width: 736px) {
   .home-container {
-    margin-top: 143px;
+    margin-top: 140px;
   }
 }
 
@@ -94,6 +95,8 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 100%;
+  animation: transitionIn .5s ease-in-out;
+
 }
 
 .exploreBttn:active,
