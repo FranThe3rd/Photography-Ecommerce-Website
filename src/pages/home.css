@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-
+.home {
+  animation: transitionIn 2s ease-in-out;
+}
 
 .home-info {
     text-align: center;
