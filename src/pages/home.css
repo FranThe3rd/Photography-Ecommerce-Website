@@ -1,12 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-.home {
+.wrapper {
+  animation: transitionIn .5s ease-in-out;
 }
-
 .home-info {
-  animation: transitionIn 0.5s ease-in-out;
-
     text-align: center;
     align-items: center;
     color: rgb(245, 245, 245);

@@ -6,6 +6,7 @@ import './home.css'
 const Home = () => {
   return (
     <div className='home'>
+      <div className='wrapper'>
       <img src={homePageImage} alt="" />
       <div className='home-container'></div>
       <div className='home-info'>
@@ -15,6 +16,9 @@ const Home = () => {
         </Link>
       </div>
     </div>
+          </div>
+
+
   )
 }
 
