@@ -14,6 +14,8 @@
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     background-color: white;
+    transition: all 0.3s ease 0s;
+
 
    
 }
@@ -63,7 +65,16 @@
 }
 
 
+.shoppingCart {
+    color: black;
+    transition: all 0.3s ease 0s;
+}
 
+.userCircle {
+    color: black;
+    transition: all 0.3s ease 0s;
+
+}
 .shoppingCart:hover {
     color: rgb(149, 140, 140)
 

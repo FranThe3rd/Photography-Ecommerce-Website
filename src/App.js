@@ -12,11 +12,11 @@ import NavbarTwo from './components/navbarTwo/navbarTwo';
 
 
 function App() {
-
+  let disableTransitions = window.innerWidth < 768;
 
   return (
     <div className="App">
-      <Router location={{ transition: 'none' }}>
+<Router location={disableTransitions ? {transition: 'none'} : {}}>
         <div className='appNav'>
         <NavbarMain/>
         <NavbarTwo/>

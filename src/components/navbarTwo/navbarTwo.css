@@ -27,6 +27,7 @@
 
     width: 20%;
     font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease 0s;
     position: relative;
 }
 
