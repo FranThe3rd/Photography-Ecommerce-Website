@@ -12,6 +12,8 @@ import NavbarTwo from './components/navbarTwo/navbarTwo';
 
 
 function App() {
+
+
   return (
     <div className="App">
       <Router>

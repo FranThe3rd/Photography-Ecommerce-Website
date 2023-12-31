@@ -3,6 +3,7 @@
 /* Shop CSS */
 
 .shop {
+    animation: transitionIn 0.5s ease-in-out;
     font-family: 'Poppins', sans-serif;
     align-items: center ;
     justify-content: center;
@@ -12,7 +13,7 @@
     margin-top: 200px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 /* Product.jsx CSS */
@@ -31,6 +32,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+/* Product.jsx CSS */
 
 
 .product {

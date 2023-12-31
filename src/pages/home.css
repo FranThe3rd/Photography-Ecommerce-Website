@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+
+.home-info {
+    text-align: center;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+}
+
+.home h1 {
+    margin-right: 10px;
+}
+
+
+
+
+ 
+
+.home img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    max-height: 1080px;
+  }
+
+.home-container {
+    max-height: 1600px;
+    width: 100%;
+    height: 100%;
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+}
+
+
+/* CSS */
+.exploreBttn {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.exploreBttn:active,
+.exploreBttn:hover {
+  outline: 0;
+}
+
+.exploreBttn:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .exploreBttn {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+
+  
+
+
+
+

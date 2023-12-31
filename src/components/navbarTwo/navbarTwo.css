@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .navbar {
+    animation: transitionIn 0.5s ease-in-out;
+
     margin-bottom: none;
     width: 100%;
     height: 30px;
