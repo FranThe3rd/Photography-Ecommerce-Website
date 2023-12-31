@@ -3,12 +3,17 @@
 .navbar {
     margin-bottom: none;
     width: 100%;
-    height: 80px;
+    height: 30px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    background-color: white;
+    border-bottom: 0.2px solid rgb(167, 167, 167); /* Add border line only to the bottom */
+
 }
+
+
 
 .links a {
 

@@ -5,6 +5,8 @@ import './navbarTwo.css'
 
 
 const NavbarTwo = () => {
+
+  
   return (
     <div className='navbar'>
         <div className='links'>
