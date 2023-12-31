@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .home {
-  animation: transitionIn 2s ease-in-out;
+  animation: transitionIn 1s ease-in-out;
+
 }
 
 .home-info {
@@ -16,6 +17,7 @@
     font-size: 30px;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
+
 }
 
 .home h1 {
@@ -35,9 +37,10 @@
   }
 
 .home-container {
-    max-height: 1600px;
-    width: 100%;
-    height: 100%;
+  max-width: 2048px;
+  max-height: 1365px;
+  width: 100vw;
+  height: 100vh;
     color: rgb(245, 245, 245);
     position: absolute;
     top: 0%;
@@ -46,6 +49,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     opacity: 0.8;
+    margin-bottom: 0px;
 }
 
 
