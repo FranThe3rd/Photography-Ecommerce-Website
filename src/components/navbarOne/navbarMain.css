@@ -23,13 +23,13 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease 0s;
     background-color: white;
 
    
 }
 
 .navbarMain:hover {
+    transition: all 0.3s ease 0s;
     height: 60px;
 
 }
