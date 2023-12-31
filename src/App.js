@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router location={{ transition: 'none' }}>
         <div className='appNav'>
         <NavbarMain/>
         <NavbarTwo/>
