@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
 
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg)
+    }
 
+    to {
+        opacity: 1;
+        transform: rotateX(0)
+    }
+}
 
 .navbarMain {
     margin-bottom: none;
