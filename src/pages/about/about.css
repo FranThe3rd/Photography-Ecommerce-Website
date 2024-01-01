@@ -3,6 +3,8 @@
 
 .about {
     animation: transitionIn 0.5s ease-in-out;
+    align-items: center ;
+    justify-content: center;
 }
 
 
@@ -12,47 +14,89 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 60px;
 }
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    padding-bottom: 50px;
+    align-items: center;
+    margin: 0 auto;
+    grid-gap: 10px;
+    
 }
-.about-info {
-    max-width: 700px;
+
+@media only screen and (max-width: 768px) {
+    .about-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.about-text {
+    max-width: 500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.about-image {
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h2-title {
+    font-family: 'Poppins', sans-serif;
 
 }
 
-.about-info h3 {
+.about-text h3 {
     margin-left: 14px;
     margin-right: 14px;
-    font-size: 14px;
-    font-family: 'Inria Sans', sans-serif;
-    text-align: left;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 @media only screen and (max-width: 375px) {
-    .about-info h3 {
-        font-size: 9px;
+    .about-text h3 {
+        font-size: 15px;
         text-align: center;
     }
 }
 
-.about-info img {
+.about-image img {
     filter: grayscale(100%);
     max-width: 450px;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 10px;
     margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
 @media only screen and (max-width: 430px) {
-    .about-info img {
+    .about-image img {
         max-width: 300px;
     }
+}
+
+.insta {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+
+}
+
+.about-image,
+.about-text {
+  align-self: center; 
 }
