@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import homePageImage from '../assets/homeImg/home.jpg'
 import './home.css'
 
+
+
 const Home = () => {
   return (
     <div className='home'>
