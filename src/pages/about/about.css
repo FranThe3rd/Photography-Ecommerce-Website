@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .about {
     animation: transitionIn 0.5s ease-in-out;
@@ -9,7 +10,7 @@
 
 
 .about h1 {
-    margin-top: 150px;
+    margin-top: 30px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 60px;
@@ -29,7 +30,10 @@
 @media only screen and (max-width: 768px) {
     .about-wrapper {
         grid-template-columns: repeat(1, 1fr);
+        
     }
+
+   
 }
 
 .about-text {
@@ -61,7 +65,7 @@
 .about-text h3 {
     margin-left: 14px;
     margin-right: 14px;
-    font-size: 17px;
+    font-size: 19px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
@@ -100,3 +104,4 @@
 .about-text {
   align-self: center; 
 }
+

@@ -41,7 +41,7 @@
 
  
 
-.home img {
+.home-image {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -116,6 +116,15 @@
     padding: 14px 16px;
   }
 }
+
+
+.home {
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
   
 
