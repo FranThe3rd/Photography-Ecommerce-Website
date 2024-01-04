@@ -71,7 +71,7 @@
     transition: all 0.3s ease 0s;
 }
 
-.userCircle {
+.instagramLogo {
     color: black;
     transition: all 0.3s ease 0s;
 
@@ -81,7 +81,7 @@
 
 }
 
-.userCircle:hover {
+.instagramLogo:hover {
     color: rgb(149, 140, 140)
 
 }
