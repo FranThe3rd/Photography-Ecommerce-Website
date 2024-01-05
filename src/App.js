@@ -6,6 +6,7 @@ import About from './pages/about/about';
 import './App.css';
 import NavbarMain from './components/navbarOne/navbarMain';
 import NavbarTwo from './components/navbarTwo/navbarTwo';
+import ShopContextProvider from './context/shop-context';
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+      <ShopContextProvider>
 <Router location={disableTransitions ? {transition: 'none'} : {}}>
         <div className='appNav'>
         <NavbarMain/>
@@ -25,9 +27,9 @@ function App() {
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/cart" element={<Cart/>}/>
           <Route path="/contact"/>
-
         </Routes>
       </Router>
+      </ShopContextProvider>
     </div>
   );
 }

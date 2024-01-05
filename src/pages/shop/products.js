@@ -49,7 +49,7 @@ export const PRODUCT_LIST = [
     }, 
 
     {
-        id: 5,
+        id: 7,
         productName: "Antlered Elegance",
         price: 125.24,
         productImage: AntleredElegance
@@ -57,7 +57,7 @@ export const PRODUCT_LIST = [
     },
 
     {
-        id: 6,
+        id: 8,
         productName: "Homeless Railroads",
         price: 125.24,
         productImage: HomelessRailroads
