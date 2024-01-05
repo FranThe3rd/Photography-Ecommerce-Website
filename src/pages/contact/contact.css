@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.contact {
+    animation: transitionIn 0.5s ease-in-out;
+    margin-top: 150px;
+    max-width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .contact h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;  
+  }
+  
+  .contact p {
+    margin-bottom: 30px;
+  }
+  
+  .contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact input, 
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+  
+.contact button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+        background-color: rgba(128, 128, 128, 0.5);
+    }
