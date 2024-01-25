@@ -29,21 +29,21 @@ const Navbar = () => {
                 <div className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
                         <li>
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink onClick={handleShowNavbar} to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/shop">Shop</NavLink>
+                            <NavLink onClick={handleShowNavbar} to="/shop">Shop</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contact">Contact</NavLink>
+                            <NavLink onClick={handleShowNavbar} to="/contact">Contact</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/cart">
+                            <NavLink onClick={handleShowNavbar} to="/cart">
                                 <ShoppingCart size={30} color='black' />
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="https://www.instagram.com/ijuanlandaverde/" target="_blank" rel="noopener noreferrer">
+                            <NavLink onClick={handleShowNavbar} to="https://www.instagram.com/ijuanlandaverde/" target="_blank" rel="noopener noreferrer">
                                 <InstagramLogo size={30} color='black' />
                             </NavLink>
                         </li>
